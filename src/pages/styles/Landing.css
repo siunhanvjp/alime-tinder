@@ -1,0 +1,37 @@
+.primary-button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: linear-gradient(45deg, #fe3072, #ff5948);
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+.primary-button:hover {
+    background: linear-gradient(260deg, #fe3072, #ff5948);
+}
+
+.overlay{
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.65) 0%,
+        rgba(0,0,0,0) 100%
+    ), url('https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg')
+}
+
+.primary-title{
+    font-size: 90px;
+    color: white;
+    padding-bottom: 90px;
+}
+
+.Home {
+    margin-top: 30vh;
+}
